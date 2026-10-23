@@ -1,0 +1,50 @@
+{
+  "config": {
+    "exp_name": "custom_cnn_full_smoke",
+    "model": "custom_cnn",
+    "strategy": null,
+    "aug": "full",
+    "epochs": 2,
+    "batch_size": 32,
+    "optimizer": "adamw",
+    "lr": 0.001,
+    "backbone_lr": 0.0001,
+    "weight_decay": 0.01,
+    "dropout": null,
+    "scheduler": "plateau",
+    "sched_patience": 3,
+    "sched_factor": 0.5,
+    "early_stop_patience": 10,
+    "monitor": "val_loss",
+    "seed": 42,
+    "image_size": 224,
+    "num_workers": 0,
+    "pretrained": true,
+    "smoke": true
+  },
+  "environment": {
+    "python_version": "3.13.3",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "random_seed": 42,
+    "numpy_version": "2.5.4",
+    "pandas_version": "3.1.0",
+    "matplotlib_version": "3.11.2",
+    "seaborn_version": "0.13.2",
+    "sklearn_version": "1.9.1",
+    "PIL_version": "13.0.0",
+    "cv2_version": "5.0.0",
+    "torch_version": "2.14.1+cpu",
+    "torchvision_version": "0.29.1+cpu",
+    "cuda_available": false,
+    "gpu_name": null
+  },
+  "device": "cpu",
+  "n_train": 1260,
+  "n_val": 270,
+  "total_params": 980198,
+  "trainable_params": 980198,
+  "train_mean_std": [
+    0.5023285616950157,
+    0.2117347587252629
+  ]
+}
