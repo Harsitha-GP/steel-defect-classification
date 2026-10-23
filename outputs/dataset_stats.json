@@ -1,0 +1,24 @@
+{
+  "n_images": 1800,
+  "n_classes": 6,
+  "images_per_class": {
+    "rolled_in_scale": 300,
+    "patches": 300,
+    "crazing": 300,
+    "pitted_surface": 300,
+    "inclusion": 300,
+    "scratches": 300
+  },
+  "image_modes": {
+    "L": 1800
+  },
+  "dimensions": {
+    "200x200": 1800
+  },
+  "global_mean_0_1": 0.5031324834422658,
+  "global_std_0_1": 0.21237775109586868,
+  "pixel_min": 0,
+  "pixel_max": 255,
+  "n_duplicate_files": 2,
+  "warnings": []
+}

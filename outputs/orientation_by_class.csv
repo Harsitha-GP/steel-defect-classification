@@ -1,0 +1,7 @@
+Class,n,mean_score,pct_vertical (>+0.2),pct_horizontal (<-0.2),pct_mixed
+Rolled-in scale,210,-0.296,0.0,90.952,9.048
+Patches,210,0.163,31.905,0.0,68.095
+Crazing,210,0.032,0.0,0.0,100.0
+Pitted surface,210,0.158,20.0,0.0,80.0
+Inclusion,210,0.366,94.762,1.905,3.333
+Scratches,210,0.297,68.571,28.095,3.333
